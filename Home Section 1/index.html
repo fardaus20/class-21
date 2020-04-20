@@ -1,0 +1,192 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--title here -->
+  <title>Title</title>
+
+  <!-- favicone here -->
+  <link rel="icon" href="icon.png">
+
+ 
+  <!--all css here -->
+   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+   <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+   <link rel="stylesheet" href="assets/css/bootstrap.css">
+   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+   <link rel="stylesheet" href="assets/css/style.css" >
+   <link rel="stylesheet" href="assets/css/responsive.css">
+
+  
+
+  
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+  
+  <!--start header area  -->
+
+  <header class="header-top fixed-top">
+    <nav class="navbar navbar-expand-lg ">
+      <a class="navbar-brand logo" href="#">
+        <img src="assets/img/header-logo.png"><span>FindHouse</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>  
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li> 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+             Listing
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">List 1</a>
+               <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">List 2</a>
+              <div class="dropdown-divider">List 3</div>
+              <a class="dropdown-item" href="#">Something else here</a>
+           </div>
+          </li> 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              property
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">user admin</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">listing single</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+           </div>
+          </li>
+           <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              pages
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">pages</a>
+               <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">about us</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">gallery</a>
+           </div>
+          </li>
+           <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Blog
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+               <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+           </div>
+          </li>
+          <li class="nav-item">
+           <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+           <a class="nav-link" href="#"><i class="fas fa-user"></i>Login/Register</a>
+          </li>
+        </ul>
+        <button class="btn  my-2 my-sm-0" ><i class="fa fa-plus" aria-hidden="true"></i>create listing</button>
+        
+      </div>
+    </nav>
+ </header>    
+    
+ <!--end header area  -->
+
+
+ <!-- home section -->
+
+ <section class="home text-center" id="home">
+   
+   <div class="container">
+     <div class="home-text">
+       <h1>Find Your Dream Home</h1>
+       <p>From as low as $10 per day with limited time offer discounts.</p>
+       <button class=" btn buy-btn">Buy</button>
+       <button class="btn rent-btn">rent</button>
+    
+     <div class="home-tab">
+        <ul class="nav">
+         <li>
+            <div class="form-group">
+              <input type="text" class="form-control" id="inputKeyword" placeholder="Enter keyword">
+            </div>
+          </li>
+          <li>
+            <div class="form-group">
+             <select id="inputState" class="form-control"  placeholder="Single Family">
+               <option selected>Choose...</option>
+               <option>...</option>
+              </select>
+            </div>
+          </li>
+          <li>
+            <div class="form-group">
+              <input type="text" class="form-control" id="inputLocation" placeholder="Location">
+            </div>
+          </li>
+          <li>
+            <div class="form-group">
+              <select id="inputState" class="form-control"  placeholder="price">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+          </li>
+          <li>
+            <button type="submit" class="btn search">Sign in</button>
+         </li>
+      </ul>
+    </div>
+   </div>
+ </div>
+</section>
+
+  
+<!--end home section -->
+
+
+
+
+  <!--jquery js -->
+  
+  <script src="assets/js/vendor/modernizr-3.8.0.min.js"></script>
+  <script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
+   <script src="assets/js/jquery-3.4.1.min.js "></script>
+
+  <!--bootstrap js -->
+  <script src="assets/js/popper.min.js "></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <!--fontawesome js -->
+   <script src="assets/js/fontawesome.min.js"></script>
+
+
+  <!--main js -->
+  <script src="assets/js/main.js"></script>
+
+
+
+  
+</body>
+
+</html>
